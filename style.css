@@ -1,0 +1,88 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    font-size: 62.5%;
+}
+    
+body {
+    height: 100vh;
+}
+header {
+    height: 30vh;
+    background-color: red;
+}
+header .titulo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .titulo h1 {
+    color: white;
+    font-size: 2rem;
+    margin-top: 80px;
+}
+/*main*/
+main {
+    height: 40vh;
+    background-color: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .container {
+    height: 40vh;
+    width: 80%;
+    border: 4px solid black;
+    background-color: white;
+}
+main .container .botones {
+    height: 20vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+main .container .gris {
+    height: 10vh;
+    background-color: grey;
+}
+main .container .negro {
+    height: 9vh;
+    background-color: black;
+}
+/*botones*/
+main .container .botones .boton-one:hover{
+    background-color: red;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    padding: 5px;
+    font-weight: bolder;
+}
+main .container .botones .boton-two:hover{
+    opacity: 0.5;
+    border: none;
+}
+main .container .botones .boton-three {
+    transition: all 0.5s;
+}
+main .container .botones .boton-three:hover{
+    transform: rotate(180deg);
+    transition: all 0.5s;
+}
+/*footer*/
+footer {
+    height: 30vh;
+    background-color: green;
+}
+footer .buenas-practicas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+footer .buenas-practicas marquee {
+    font-size: 2rem;
+    margin-top: 80px;
+}
