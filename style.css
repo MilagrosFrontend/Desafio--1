@@ -48,6 +48,9 @@ main .container .gris {
     height: 10vh;
     background-color: grey;
 }
+.apareceDesaparece {
+    display: none;
+}
 main .container .negro {
     height: 9vh;
     background-color: black;
